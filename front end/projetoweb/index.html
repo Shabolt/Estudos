@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>João Pessoa</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <h1>João Pessoa</h1>
+        <p> exemplo 1 - não modificado <span  id="12345"></span> </p>
+        <p>
+            <b>João Pessoa</b> é a capital do estado da Paraíba, <br/>
+            conhecida como a "Porta do Sol" por abrigar a <br/>
+            Ponta do Seixas, o ponto mais oriental das Américas.
+        </p>
+
+        <button
+            type="button"
+            onclick= changeText()>
+            Clique aqui!
+
+        </button>
+
+        <script>
+            function changeText() {
+                let nome = prompt("insira seu nome: ");
+                document.getElementById("12345").innerHTML = nome;
+            }
+        </script>
+
+    </body>
+</html>

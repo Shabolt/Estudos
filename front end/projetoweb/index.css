@@ -1,0 +1,14 @@
+p {
+    color: #143767; 
+    font-size: 18px; 
+    font-family: Arial, Helvetica;
+}
+h1{
+    color: #000000; 
+    text-align: center;
+}
+
+#12345{
+    color: green;
+    font-weight: bold;
+}
